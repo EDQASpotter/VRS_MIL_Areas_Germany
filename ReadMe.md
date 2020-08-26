@@ -2,6 +2,8 @@
 Military Restricted Areas over Germany
 </h1>
 
+![alt tag](https://github.com/ETEJSpotter/VRS_MIL_Areas_Germany/blob/master/Restricted_Areas.jpg)
+
 <h2>
   Prerequisites
 </h2>
