@@ -18,4 +18,4 @@ Military Restricted Areas over Germany
 - Repeat Step 2 but this time with "/mobile.html" on the Address Field.
 
 
-![alt tag](https://github.com/ETEJSpotter/VRS_MIL_Areas_Germany/blob/master/Restricted Areas.jpg)
+![alt tag](https://github.com/ETEJSpotter/VRS_MIL_Areas_Germany/blob/master/RestrictedAreas.jpg)
