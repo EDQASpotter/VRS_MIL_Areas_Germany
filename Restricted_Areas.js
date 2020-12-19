@@ -6,40 +6,80 @@
                 // Check that there's a map on the page
                 if(pageSettings.mapPlugin) {
 				var FillColour = ['#c63437']
-				var NeuburgTraining = [
-					{lat:  47.9109, lng:  10.3095 },
-					{lat:  47.8363, lng:  10.4003 },
-					{lat:  47.9266, lng:  11.2339 },
-					{lat:  48.2382, lng:  11.1892 },
-					{lat:  48.3635, lng:  11.0000 },
-					{lat:  48.0305, lng:  11.0000 },
-					{lat:  47.9109, lng:  10.3095 },
-					{lat:  47.8900, lng:  9.5494 },
-					{lat:  48.5279, lng:  9.5499 },
-					{lat:  48.6249, lng:  9.7023 },
-					{lat:  48.6596, lng:  10.5393 },
-					{lat:  48.7135, lng:  10.4576 },
-					{lat:  48.8642, lng:  10.0800 },
-					{lat:  48.6986, lng:  9.6863 },
-					{lat:  48.5279, lng:  9.5499 },
-					{lat:  47.9109, lng:  10.3095 },
-					{lat:  48.0305, lng:  11.0000 },
-					{lat:  48.3635, lng:  11.0000 },
-					{lat:  48.6596, lng:  10.5393 },
-					{lat:  48.7135, lng:  10.4576 },
-					{lat:  49.0663, lng:  9.9035 },
-					{lat:  48.8628, lng:  9.3858 },
-					{lat:  48.6756, lng:  9.3567 },
-					{lat:  48.5279, lng:  9.5499 },
-					{lat:  47.9109, lng:  10.3095 }
+				var NeuburgTraining1 = [
+					{lat:  47.9109, lng:  10.3095 },	//1
+					{lat:  47.8363, lng:  10.4003 },	//2
+					{lat:  47.9266, lng:  11.2339 },	//3
+					{lat:  48.2382, lng:  11.1892 },	//4
+					{lat:  48.3635, lng:  11.0000 },	//5
+					{lat:  48.6596, lng:  10.5393 },	//11
+					{lat:  48.7135, lng:  10.4576 },	//20
+					{lat:  49.0663, lng:  9.9035 },		//21
+					{lat:  48.8628, lng:  9.3858 },		//22
+					{lat:  48.6756, lng:  9.3567 },		//23
+					{lat:  48.5279, lng:  9.5499 },		//24
+					{lat:  47.8900, lng:  9.5494 }		//8					
                     ];
-                    pageSettings.mapPlugin.addPolygon('NeuburgTraining', {
+                    pageSettings.mapPlugin.addPolygon('NeuburgTraining1', {
                         strokeColour:   '#808080',
                         strokeWeight:   2,
-                        paths:          [ NeuburgTraining ],
+                        paths:          [ NeuburgTraining1 ],
                         fillColour:     [ FillColour ],
-                        fillOpacity:    0.1,
-						tag: 'Neuburg'
+                        fillOpacity:    0.1
+						});
+				var NeuburgTraining2 = [
+					{lat:  47.9109, lng:  10.3095 },	//1
+					{lat:  47.8363, lng:  10.4003 },	//2
+					{lat:  47.9266, lng:  11.2339 },	//3
+					{lat:  48.2382, lng:  11.1892 },	//4
+					{lat:  48.3635, lng:  11.0000 },	//5
+					{lat:  48.6596, lng:  10.5393 },	//11
+					{lat:  48.7135, lng:  10.4576 },	//12
+					{lat:  48.8642, lng:  10.0800 },	//13
+					{lat:  48.6986, lng:  9.6863 },		//14
+					{lat:  48.5279, lng:  9.5499 }		//15
+                    ];
+                    pageSettings.mapPlugin.addPolygon('NeuburgTraining2', {
+                        strokeColour:   '#808080',
+                        strokeWeight:   2,
+                        paths:          [ NeuburgTraining2 ],
+                        fillColour:     [ FillColour ],
+                        fillOpacity:    0.1
+						});
+				var NeuburgTraining3 = [
+					{lat:  47.9109, lng:  10.3095 },	//1
+					{lat:  47.8363, lng:  10.4003 },	//2
+					{lat:  47.9266, lng:  11.2339 },	//3
+					{lat:  48.2382, lng:  11.1892 },	//4
+					{lat:  48.3635, lng:  11.0000 },	//5
+					{lat:  48.6596, lng:  10.5393 },	//11
+					{lat:  48.7135, lng:  10.4576 },	//12
+					{lat:  48.8642, lng:  10.0800 },	//13
+					{lat:  48.6986, lng:  9.6863 },		//14
+					{lat:  48.5279, lng:  9.5499 }		//15
+                    ];
+                    pageSettings.mapPlugin.addPolygon('NeuburgTraining3', {
+                        strokeColour:   '#808080',
+                        strokeWeight:   2,
+                        paths:          [ NeuburgTraining3 ],
+                        fillColour:     [ FillColour ],
+                        fillOpacity:    0.1
+                    });
+				var NeuburgTraining4 = [
+					{lat:  47.9109, lng:  10.3095 },	//1
+					{lat:  48.0305, lng:  11.0000 },	//6
+					{lat:  48.3635, lng:  11.0000 },	//5
+					{lat:  48.6596, lng:  10.5393 },	//11
+					{lat:  48.6249, lng:  9.7023 },		//10
+					{lat:  48.5279, lng:  9.5499 },		//9
+					{lat:  47.8900, lng:  9.5494 }		//8
+                    ];
+                    pageSettings.mapPlugin.addPolygon('NeuburgTraining4', {
+                        strokeColour:   '#808080',
+                        strokeWeight:   2,
+                        paths:          [ NeuburgTraining4 ],
+                        fillColour:     [ FillColour ],
+                        fillOpacity:    0.1
                     });
 					var Grafenwöhr = [
 					{lat:  49.6908, lng:  11.6004 },
@@ -1285,7 +1325,7 @@
                         fillColour:     [ FillColour ],
                         fillOpacity:    0.1
                     });
-                    var Senne1 = [
+                    var Truppenübungsplatz_Senne1 = [
 					{lat:  51.5503, lng:  8.9195 },
 					{lat:  51.5643, lng:  8.9334 },
 					{lat:  51.9668, lng:  8.9445 },
@@ -1296,14 +1336,14 @@
 					{lat:  51.5052, lng:  8.1243 },
 					{lat:  51.5001, lng:  8.8833 }
                     ];
-                    pageSettings.mapPlugin.addPolygon('Senne1', {
+                    pageSettings.mapPlugin.addPolygon('Truppenübungsplatz_Senne1', {
                         strokeColour:   '#808080',
                         strokeWeight:   2,
-                        paths:          [ Senne1 ],
+                        paths:          [ Truppenübungsplatz_Senne1 ],
                         fillColour:     [ FillColour ],
                         fillOpacity:    0.1
                     });
-                    var Senne2 = [
+                    var Truppenübungsplatz_Senne2 = [
 					{lat:  51.5503, lng:  8.9195 },
 					{lat:  51.5643, lng:  8.9334 },
 					{lat:  51.9668, lng:  8.9445 },
@@ -1311,10 +1351,10 @@
 					{lat:  51.8170, lng:  7.8680 },
 					{lat:  51.5582, lng:  8.1449 }
                     ];
-                    pageSettings.mapPlugin.addPolygon('Senne2', {
+                    pageSettings.mapPlugin.addPolygon('Truppenübungsplatz_Senne2', {
                         strokeColour:   '#808080',
                         strokeWeight:   2,
-                        paths:          [ Senne2 ],
+                        paths:          [ Truppenübungsplatz_Senne2 ],
                         fillColour:     [ FillColour ],
                         fillOpacity:    0.1
                     });	
@@ -3192,9 +3232,356 @@
                         paths:          [ Truppenübungsplatz_Jägerbrück2 ],
                         fillColour:     [ FillColour ],
                         fillOpacity:    0.1
+                    });				
+                    var Low_Flying_Zone_South_West = [
+					{lat:  49.1040, lng:  8.5458 },
+					{lat:  48.5634, lng:  8.5209 },
+					{lat:  48.5542, lng:  8.5210 },
+					{lat:  48.5463, lng:  8.5248 },
+					{lat:  48.5401, lng:  8.5337 },
+					{lat:  48.5297, lng:  8.5483 },
+					{lat:  48.1376, lng:  9.4409 },
+					{lat:  48.1278, lng:  9.4602 },
+					{lat:  48.1226, lng:  9.4772 },
+					{lat:  48.1197, lng:  9.4984 },
+					{lat:  48.1224, lng:  9.5143 },
+					{lat:  48.1259, lng:  9.5273 },
+					{lat:  48.1333, lng:  9.5392 },
+					{lat:  48.1419, lng:  9.5523 },
+					{lat:  48.5390, lng:  9.9297 },
+					{lat:  48.6475, lng:  10.7023 },
+					{lat:  48.6522, lng:  10.7193 },
+					{lat:  48.6560, lng:  10.7319 },
+					{lat:  48.6632, lng:  10.7434 },
+					{lat:  48.6710, lng:  10.7516 },
+					{lat:  48.6777, lng:  10.7579 },
+					{lat:  48.6869, lng:  10.7610 },
+					{lat:  48.6979, lng:  10.7628 },
+					{lat:  49.0244, lng:  10.8041 },
+					{lat:  49.0350, lng:  10.8026 },
+					{lat:  49.0450, lng:  10.8001 },
+					{lat:  49.0529, lng:  10.7942 },
+					{lat:  49.0593, lng:  10.7849 },
+					{lat:  49.0654, lng:  10.7761 },
+					{lat:  49.0702, lng:  10.7644 },
+					{lat:  49.3850, lng:  9.4383 },
+					{lat:  49.3019, lng:  9.3946 },
+					{lat:  49.0033, lng:  10.6761 },
+					{lat:  48.7271, lng:  10.6362 },
+					{lat:  48.6178, lng:  9.8990 },
+					{lat:  48.6152, lng:  9.8862 },
+					{lat:  48.6129, lng:  9.8746 },
+					{lat:  48.6100, lng:  9.8643 },
+					{lat:  48.6041, lng:  9.8539 },
+					{lat:  48.5955, lng:  9.8427 },
+					{lat:  48.2174, lng:  9.4768 },
+					{lat:  48.5897, lng:  8.6407 },
+					{lat:  49.1030, lng:  8.6685 },
+					{lat:  49.1040, lng:  8.5458 }
+                    ];
+                    pageSettings.mapPlugin.addPolygon('Low_Flying_Zone_South_West', {
+                        strokeColour:   '#808080',
+                        strokeWeight:   2,
+                        paths:          [ Low_Flying_Zone_South_West ],
+                        fillColour:     [ FillColour ],
+                        fillOpacity:    0.1
+                    });				
+                    var Low_Flying_Zone_North_West1 = [
+					{lat:  54.1568, lng:  9.1109 },
+					{lat:  53.4486, lng:  9.3322 },
+					{lat:  53.4434, lng:  9.0187 },
+					{lat:  53.4430, lng:  8.9980 },
+					{lat:  53.4418, lng:  8.9797 },
+					{lat:  53.4362, lng:  8.9532 },
+					{lat:  53.3307, lng:  8.4759 },
+					{lat:  53.3290, lng:  7.8838 },
+					{lat:  53.3144, lng:  7.4565 },
+					{lat:  53.3129, lng:  7.4346 },
+					{lat:  53.3098, lng:  7.4144 },
+					{lat:  53.3034, lng:  7.3996 },
+					{lat:  53.2965, lng:  7.3890 },
+					{lat:  53.2865, lng:  7.3783 },
+					{lat:  52.7040, lng:  7.0647 },
+					{lat:  52.6904, lng:  7.0602 },
+					{lat:  52.6715, lng:  7.0596 },
+					{lat:  52.3259, lng:  7.1282 },
+					{lat:  52.0456, lng:  7.0319 },
+					{lat:  52.0347, lng:  7.0318 },
+					{lat:  52.0281, lng:  7.0327 },
+					{lat:  52.0207, lng:  7.0363 },
+					{lat:  52.0132, lng:  7.0423 },
+					{lat:  52.0066, lng:  7.0520 },
+					{lat:  51.9974, lng:  7.0668 },
+					{lat:  51.9914, lng:  7.0816 },
+					{lat:  51.7643, lng:  7.6745 },
+					{lat:  51.7611, lng:  7.6951 },
+					{lat:  51.7596, lng:  7.7133 },
+					{lat:  51.7600, lng:  7.7299 },
+					{lat:  51.7632, lng:  7.7432 },
+					{lat:  51.7679, lng:  7.7562 },
+					{lat:  51.7750, lng:  7.7692 },
+					{lat:  52.1222, lng:  8.3124 },
+					{lat:  52.1847, lng:  8.4031 },
+					{lat:  52.4311, lng:  8.7920 },
+					{lat:  52.4476, lng:  8.8185 },					
+					{lat:  52.6630, lng:  9.1665 },
+					{lat:  52.9449, lng:  9.5902 },
+					{lat:  52.9526, lng:  9.5999 },
+					{lat:  52.9623, lng:  9.6049 },
+					{lat:  52.9751, lng:  9.6058 },
+					{lat:  52.9858, lng:  9.6042 },
+					{lat:  53.2850, lng:  9.5568 },
+					{lat:  53.2928, lng:  9.5556 },
+					{lat:  53.3012, lng:  9.5512 },
+					{lat:  53.4159, lng:  9.4845 },
+					{lat:  53.7201, lng:  9.3942 },					
+					{lat:  54.1729, lng:  9.2508 },
+					{lat:  54.1568, lng:  9.1109 },
+					{lat:  53.4486, lng:  9.3322 },
+					{lat:  53.3614, lng:  9.3659 },					
+					{lat:  53.3602, lng:  9.3664 },
+					{lat:  53.2705, lng:  9.4206 },
+					{lat:  52.9831, lng:  9.4654 },
+					{lat:  52.7233, lng:  9.0731 },
+					{lat:  52.4939, lng:  8.7023 },
+					{lat:  52.2479, lng:  8.3154 },
+					{lat:  52.1792, lng:  8.2085 },					
+					{lat:  51.8514, lng:  7.7034 },
+					{lat:  52.0516, lng:  7.1710 },
+					{lat:  52.3168, lng:  7.2654 },
+					{lat:  52.3245, lng:  7.2663 },
+					{lat:  52.3312, lng:  7.2662 },
+					{lat:  52.3387, lng:  7.2656 },
+					{lat:  52.3472, lng:  7.2649 },
+					{lat:  52.6793, lng:  7.1923 },
+					{lat:  53.2328, lng:  7.4934 },
+					{lat:  53.2421, lng:  7.8877 },
+					{lat:  53.2439, lng:  8.4890 },
+					{lat:  53.2444, lng:  8.5071 },
+					{lat:  53.2463, lng:  8.5194 },
+					{lat:  53.3592, lng:  9.0168 },
+					{lat:  53.3618, lng:  9.4272 },
+					{lat:  53.3650, lng:  9.4407 },
+					{lat:  53.3715, lng:  9.4548 },
+					{lat:  53.3762, lng:  9.4647 },
+					{lat:  53.3846, lng:  9.4733 },
+					{lat:  53.3948, lng:  9.4791 },
+					{lat:  53.4048, lng:  9.4849 },
+					{lat:  53.4159, lng:  9.4845 },
+					{lat:  53.7201, lng:  9.3942 },					
+					{lat:  54.1729, lng:  9.2508 },
+					{lat:  54.1568, lng:  9.1109 }
+                    ];
+                    pageSettings.mapPlugin.addPolygon('Low_Flying_Zone_North_West1', {
+                        strokeColour:   '#808080',
+                        strokeWeight:   2,
+                        paths:          [ Low_Flying_Zone_North_West1 ],
+                        fillColour:     [ FillColour ],
+                        fillOpacity:    0.1
+                    });				
+                    var Truppenübungsplatz_Heuberg1 = [
+					{lat:  48.2083, lng:  8.8932 },
+					{lat:  48.0800, lng:  8.8932 },
+					{lat:  48.0800, lng:  9.0997 },
+					{lat:  48.2083, lng:  9.0977 }
+                    ];
+                    pageSettings.mapPlugin.addPolygon('Truppenübungsplatz_Heuberg1', {
+                        strokeColour:   '#808080',
+                        strokeWeight:   2,
+                        paths:          [ Truppenübungsplatz_Heuberg1 ],
+                        fillColour:     [ FillColour ],
+                        fillOpacity:    0.1
+                    });					
+                    var Truppenübungsplatz_Heuberg2 = [
+					{lat:  48.1165, lng:  9.0997 },
+					{lat:  48.1165, lng:  8.9449 },
+					{lat:  48.2083, lng:  8.9449 },
+					{lat:  48.2083, lng:  9.0977 }
+                    ];
+                    pageSettings.mapPlugin.addPolygon('Truppenübungsplatz_Heuberg2', {
+                        strokeColour:   '#808080',
+                        strokeWeight:   2,
+                        paths:          [ Truppenübungsplatz_Heuberg2 ],
+                        fillColour:     [ FillColour ],
+                        fillOpacity:    0.1
+                    });					
+                    var Truppenübungsplatz_Meppen = [
+					{lat:  52.9461, lng:  7.4235 },
+					{lat:  52.9129, lng:  7.4025 },
+					{lat:  52.7018, lng:  7.2580 },
+					{lat:  52.6739, lng:  7.2895 },
+					{lat:  52.6749, lng:  7.3754 },
+					{lat:  52.6797, lng:  7.3917 },
+					{lat:  52.8628, lng:  7.5327 },
+					{lat:  52.9312, lng:  7.5941 }
+                    ];
+                    pageSettings.mapPlugin.addPolygon('Truppenübungsplatz_Meppen', {
+                        strokeColour:   '#808080',
+                        strokeWeight:   2,
+                        paths:          [ Truppenübungsplatz_Meppen ],
+                        fillColour:     [ FillColour ],
+                        fillOpacity:    0.1
+                    });					
+                    var Truppenübungsplatz_Bergen1 = [
+					{lat:  53.0741, lng:  10.0859 },
+					{lat:  53.0214, lng:  9.9797 },
+					{lat:  52.9900, lng:  9.9165 },
+					{lat:  52.9584, lng:  9.9150 },
+					{lat:  52.9484, lng:  9.8875 },
+					{lat:  52.9275, lng:  9.8674 },
+					{lat:  52.9006, lng:  9.7967 },
+					{lat:  52.8891, lng:  9.7716 },
+					{lat:  52.8641, lng:  9.7375 },
+					{lat:  52.8268, lng:  9.6735 },
+					{lat:  52.7923, lng:  9.6687 },
+					{lat:  52.7449, lng:  9.6541 },
+					{lat:  52.6924, lng:  9.7246 },
+					{lat:  52.6924, lng:  9.9554 },
+					{lat:  52.7950, lng:  9.9343 },
+					{lat:  52.8753, lng:  10.1071 },
+					{lat:  52.9044, lng:  10.1331 },
+					{lat:  52.9317, lng:  10.1559 },
+					{lat:  52.9589, lng:  10.1577 },
+					{lat:  52.9829, lng:  10.2390 },
+					{lat:  53.0342, lng:  10.2390 }
+                    ];
+                    pageSettings.mapPlugin.addPolygon('Truppenübungsplatz_Bergen1', {
+                        strokeColour:   '#808080',
+                        strokeWeight:   2,
+                        paths:          [ Truppenübungsplatz_Bergen1 ],
+                        fillColour:     [ FillColour ],
+                        fillOpacity:    0.1
+                    });					
+                    var Truppenübungsplatz_Bergen2 = [
+					{lat:  52.8891, lng:  9.7716 },
+					{lat:  52.7950, lng:  9.9343 }
+                    ];
+                    pageSettings.mapPlugin.addPolygon('Truppenübungsplatz_Bergen2', {
+                        strokeColour:   '#808080',
+                        strokeWeight:   2,
+                        paths:          [ Truppenübungsplatz_Bergen2 ],
+                        fillColour:     [ FillColour ],
+                        fillOpacity:    0.1
+                    });					
+                    var Truppenübungsplatz_Bergen3 = [
+					{lat:  53.0214, lng:  9.9797 },
+					{lat:  52.9589, lng:  10.1577 }
+                    ];
+                    pageSettings.mapPlugin.addPolygon('Truppenübungsplatz_Bergen3', {
+                        strokeColour:   '#808080',
+                        strokeWeight:   2,
+                        paths:          [ Truppenübungsplatz_Bergen3 ],
+                        fillColour:     [ FillColour ],
+                        fillOpacity:    0.1
+                    });					
+                    var Truppenübungsplatz_Bergen4 = [
+					{lat:  52.9829, lng:  10.2390 },
+					{lat:  52.8303, lng:  10.2390 },
+					{lat:  52.8303, lng:  10.3152 },
+					{lat:  52.9130, lng:  10.3152 },
+					{lat:  52.9130, lng:  10.2960 },
+					{lat:  52.9829, lng:  10.2960 }
+                    ];
+                    pageSettings.mapPlugin.addPolygon('Truppenübungsplatz_Bergen4', {
+                        strokeColour:   '#808080',
+                        strokeWeight:   2,
+                        paths:          [ Truppenübungsplatz_Bergen4 ],
+                        fillColour:     [ FillColour ],
+                        fillOpacity:    0.1
+                    });				
+                    var Low_Flying_Zone_North_West2 = [
+					{lat:  53.4486, lng:  9.3322 },
+					{lat:  53.4434, lng:  9.0187 },
+					{lat:  53.4430, lng:  8.9980 },
+					{lat:  53.4418, lng:  8.9797 },
+					{lat:  53.4362, lng:  8.9532 },
+					{lat:  53.3307, lng:  8.4759 },
+					{lat:  53.3290, lng:  7.8838 },
+					{lat:  53.3144, lng:  7.4565 },
+					{lat:  53.3129, lng:  7.4346 },
+					{lat:  53.3098, lng:  7.4144 },
+					{lat:  53.3034, lng:  7.3996 },
+					{lat:  53.2965, lng:  7.3890 },
+					{lat:  53.2865, lng:  7.3783 },
+					{lat:  52.7040, lng:  7.0647 },
+					{lat:  52.6904, lng:  7.0602 },
+					{lat:  52.6715, lng:  7.0596 },
+					{lat:  52.3259, lng:  7.1282 },
+					{lat:  52.0456, lng:  7.0319 },		//new 
+					{lat:  51.6572, lng:  6.5250 },		//new	
+					{lat:  51.6055, lng:  6.6261 },		//new		//set higher
+					{lat:  51.9879, lng:  7.1330 },		//new
+					{lat:  51.9997, lng:  7.1460 },		//new
+					{lat:  52.0146, lng:  7.1580 },		//new
+					{lat:  52.0288, lng:  7.1635 },		//new
+					{lat:  52.0516, lng:  7.1710 },
+					{lat:  52.3245, lng:  7.2663 },
+					{lat:  52.3312, lng:  7.2662 },
+					{lat:  52.3387, lng:  7.2656 },
+					{lat:  52.3472, lng:  7.2649 },
+					{lat:  52.6793, lng:  7.1923 },
+					{lat:  53.2328, lng:  7.4934 },
+					{lat:  53.2421, lng:  7.8877 },
+					{lat:  53.2439, lng:  8.4890 },
+					{lat:  53.2444, lng:  8.5071 },
+					{lat:  53.2463, lng:  8.5194 },
+					{lat:  53.3592, lng:  9.0168 },
+					{lat:  53.3614, lng:  9.3659 },					
+					{lat:  53.2705, lng:  9.4206 },
+					{lat:  52.9831, lng:  9.4654 },
+					{lat:  52.7233, lng:  9.0731 },				
+					{lat:  52.4900, lng:  8.6946 },		//new
+					{lat:  52.4848, lng:  8.6869 },		//new
+					{lat:  52.4777, lng:  8.6803 },		//new
+					{lat:  52.4698, lng:  8.6781 },		//new
+					{lat:  52.4614, lng:  8.6771 },		//new
+					{lat:  52.4527, lng:  8.6785 },		//new
+					{lat:  52.1421, lng:  8.7037 },		//new
+					{lat:  52.1249, lng:  8.7057 },		//new
+					{lat:  52.1072, lng:  8.7102 },		//new
+					{lat:  52.0993, lng:  8.7194 },		//new
+					{lat:  52.0938, lng:  8.7330 },		//new
+					{lat:  51.8945, lng:  9.3264 },		//new
+					{lat:  51.4990, lng:  8.9902 },		//new
+					{lat:  51.0882, lng:  8.4116 },		//new
+					{lat:  51.0341, lng:  8.5099 },		//new
+					{lat:  51.4498, lng:  9.0933 },		//new
+					{lat:  51.9001, lng:  9.4820 },		//new
+					{lat:  51.9161, lng:  9.4856 },		//new
+					{lat:  51.9315, lng:  9.4786 },		//new					
+					{lat:  51.9426, lng:  9.4695 },		//new
+					{lat:  51.9497, lng:  9.4563 },		//new
+					{lat:  52.1585, lng:  8.8412 },		//new
+					{lat:  52.4476, lng:  8.8185 },		//new					
+					{lat:  52.6630, lng:  9.1665 },
+					{lat:  52.9449, lng:  9.5902 },
+					{lat:  52.9526, lng:  9.5999 },
+					{lat:  52.9623, lng:  9.6049 },
+					{lat:  52.9751, lng:  9.6058 },
+					{lat:  52.9858, lng:  9.6042 },
+					{lat:  53.2850, lng:  9.5568 },
+					{lat:  53.2928, lng:  9.5556 },
+					{lat:  53.3012, lng:  9.5512 },
+					{lat:  53.4159, lng:  9.4845 },
+					{lat:  53.4241, lng:  9.4743 },		//new
+					{lat:  53.4308, lng:  9.4675 },		//new
+					{lat:  53.4365, lng:  9.4581 },		//new
+					{lat:  53.4410, lng:  9.4473 },		//new
+					{lat:  53.4432, lng:  9.4351 },		//new
+					{lat:  53.4459, lng:  9.4196 },		//new
+					{lat:  53.4481, lng:  9.4067 },		//new
+					{lat:  53.4492, lng:  9.3950 }		//new				
+                    ];
+                    pageSettings.mapPlugin.addPolygon('Low_Flying_Zone_North_West2', {
+                        strokeColour:   '#808080',
+                        strokeWeight:   2,
+                        paths:          [ Low_Flying_Zone_North_West2 ],
+                        fillColour:     [ FillColour ],
+                        fillOpacity:    0.1
                     });
                 }
              }, this);
         });
     }
 </script>
+
