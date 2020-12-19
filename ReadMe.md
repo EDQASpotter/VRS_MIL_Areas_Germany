@@ -17,5 +17,3 @@ Military Restricted Areas over Germany
 - Configure the VRS Custom Content Plugin to add the "Restricted_Areas.html" file into the END of HEAD portion of the pages, with "/desktop.html" (without quotes and spaces) on the Address field.
 - Repeat Step 2 but this time with "/mobile.html" on the Address Field.
 
-
-![alt tag](https://github.com/ETEJSpotter/VRS_MIL_Areas_Germany/blob/master/Restricted_Areas.jpg)
